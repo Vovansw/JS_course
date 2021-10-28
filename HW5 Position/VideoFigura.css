@@ -1,0 +1,47 @@
+body {
+    height: 2500px; 
+}
+
+.conteiner_with_gray_cude {
+    width: 520px;
+    height: 520px; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;   
+    justify-content: space-around; 
+    align-content: space-around;  
+    flex-flow: row wrap;  
+}
+
+.conteiner_with_black_cude {
+    width: 520px;
+    height: 520px; 
+    position: absolute;
+    top: 1500px; 
+    left: 50%;    
+    transform: translate(-50%, 0%);
+    display: flex;   
+    justify-content: space-around; 
+    align-content: space-around;  
+    flex-flow: row wrap;  
+}
+
+.cube {
+    width: 43px;
+    height: 43px; 
+    margin: 1px;
+}
+
+.cube_gray {
+    background-color: gray; 
+}
+
+.cube_black {
+    background-color: black;
+}
+
+
+
+    
