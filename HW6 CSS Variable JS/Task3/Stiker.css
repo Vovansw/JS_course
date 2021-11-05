@@ -1,0 +1,15 @@
+body {
+    background-image: linear-gradient(to right, rgb(14, 43, 68), rgb(94, 176, 190));
+}
+
+.conteiner {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.greenconteiner {
+    height: 20px;
+    background-color: chartreuse;
+    position: sticky;
+    top: 10px;   
+}

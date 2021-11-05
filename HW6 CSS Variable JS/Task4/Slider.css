@@ -1,0 +1,27 @@
+html {
+     height: 100%; 
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(14, 43, 68), rgb(94, 176, 190));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.rectangle {
+    width: 130px;
+    height: 75px;
+    border: 2px solid;
+    margin: 5px;
+}
+
+.rectangle:hover {
+    width: 390px;
+    height: 225px;
+    border: 2px solid;
+    margin: 5px;
+    transition: all 0.5s;
+}

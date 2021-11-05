@@ -1,0 +1,115 @@
+body {
+    background-image: linear-gradient(to right, rgb(14, 43, 68), rgb(94, 176, 190));
+}
+
+.cube {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;  
+    position: absolute;  
+} 
+
+.cube:hover {
+    z-index: 16;
+    width: 165px;
+    height: 165px;
+    transition: all 0.5s;
+
+}
+
+.cube1 {
+    background-color: rgb(134, 170, 236); 
+    top: 15px;
+    left: 15px;
+}
+
+.cube2{
+    background-color: rgb(38, 69, 100); 
+    top: 30px;
+    left: 30px;
+}
+
+.cube3 {
+    background-color: rgb(82, 84, 87);
+    top: 45px;
+    left: 45px;
+}
+
+.cube4 {
+    background-color: rgb(33, 34, 36);
+    top: 60px;
+    left: 60px;
+}
+
+.cube5 {
+    background-color: rgb(219, 230, 241);
+    top: 75px;
+    left: 75px; 
+}
+
+.cube6 {
+    background-color: cornflowerblue;
+    top: 90px;
+    left: 90px;
+}
+
+.cube7 {
+    background-color: rgb(33, 122, 63);
+    top: 105px;
+    left: 105px;
+}
+
+.cube8 {
+    background-color: rgb(34, 4, 4);
+    top: 120px;
+    left: 120px;
+}
+
+.cube9 {
+    background-color: rgb(149, 202, 63);
+    top: 135px;
+    left: 135px;
+}
+
+.cube10 {
+    background-color: rgb(20, 70, 39);
+    top: 150px;
+    left: 150px;
+}
+
+.cube11 {
+    background-color: rgb(209, 193, 49);
+    top: 165px;
+    left: 165px;
+}
+
+.cube12 {
+    background-color: rgb(35, 71, 138);
+    top: 180px;
+    left: 180px;
+}
+
+.cube13 {
+    background-color: rgb(82, 82, 82);
+    top: 195px;
+    left: 195px;
+}
+
+.cube14 {
+    background-color: rgb(236, 176, 231);
+    top: 210px;
+    left: 210px;
+}
+
+.cube15 {
+    background-color: rgb(39, 150, 35);
+    top: 225px;
+    left: 225px;      
+}
+
+.cube16 {
+    background-color: rgb(39, 150, 35);
+    top: 240px;
+    left: 240px;    
+}
+

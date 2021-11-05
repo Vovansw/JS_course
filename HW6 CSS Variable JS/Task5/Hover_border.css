@@ -1,0 +1,30 @@
+.conteiner {
+    margin: 5px;
+}
+
+.block_with_hover_border {
+    width: 150px;
+    height: 50px;
+    border: 2px solid;
+    /* Перше вирішення поставити box-sizing: border-box;,
+    а щоб контент в середині блока не дригався, то зробити його Flex. */
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_with_hover_border:hover {
+    border: 4px solid;
+}
+
+/* Друге, то засунути блок в якого змінюється розмір границі
+в трохи більший блок, який зробити Flex, щоб внутрішній
+блок був по середині. */
+.Motherblock {
+    width: 156px;
+    height: 56px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
